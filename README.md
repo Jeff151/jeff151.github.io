@@ -1,0 +1,1 @@
+This will be a website that counters the daily feed of negativity with uplifting and inspiring stories of heroism, community, compassion, kindness and positivity,  This will be a page dedicated to spreading love to all living things!

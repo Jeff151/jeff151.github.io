@@ -1,30 +1,61 @@
 body{
-background-color: navy;
+background-color:  rgba(0, 0, 15, .8);
 opacity: 0.75;
+background-image: url(hands.webp);
 }
 .first{
-    color: navajowhite;
+    color: rgb(22, 22, 21);
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 .construction{
-    color: orangered;
+    color: rgb(255, 69, 0);
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+
 }
+
 img{
     width: 100%;
     height: 400px;
     margin:auto;
 }
 header img{
-    width:100%;
+    width: 40%;
     height:155px;
     margin:auto;
     padding: 10px 0px;
 }
 header{
-    background-attachment: fixed;
+    background-attachment: scroll;
+    display: flex;
+    height:175px;
+    width:100%;
+
+  
+}
+.hleft{
+  justify-content: flex-end;
+  align-content: flex-start;
+  padding-left: 25px;
+  height: 130px;
+  width: 700px;
+}
+.hleft img{
+  height: 149px;
+  width :auto;
+}
+
+.header-tags a{
+ padding-left:35px;
+ justify-content: space-evenly;
+ flex-wrap: nowrap;
+ color: rgb(140, 245, 3);
 }
 a{
-    color: white;
+    color: blue;
+
     
 }
 .second{
@@ -33,51 +64,3 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*slider*/
-.slider {
-        width: 500px;
-        height: 300px;
-        background-color: yellow;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0px;
-        text-align: center;
-        overflow: hidden;
-      }
-      .image-container {
-        width: 1500px;
-        background-color: pink;
-        height: 300px;
-        clear: both;
-        position: relative;
-        -webkit-transition: left 2s;
-        -moz-transition: left 2s;
-        -o-transition: left 2s;
-        transition: left 2s;
-      }
-      .slide {
-        float: left;
-        margin: 0px;
-        padding: 0px;
-        position: relative;
-      }
-      #slide-1:target ~ .image-container {
-        left: 0px;
-      }
-      #slide-2:target ~ .image-container {
-        left: -500px;
-      }
-      #slide-3:target ~ .image-container {
-        left: -1000px;
-      }
-      .buttons {
-        position: relative;
-        top: -20px;
-      }
-      .buttons a {
-        display: inline-block;
-        height: 15px;
-        width: 15px;
-        border-radius: 50px;
-        background-color: lightgreen;
-      }
